@@ -1,0 +1,227 @@
+:root {
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+
+/*NAVI*/
+
+i {
+    color: rgb(177, 125, 125);
+    size: 40px;
+}
+
+.nav {
+    /* height: 80px; */
+    background-color: white;
+}
+
+
+/* headeri */
+
+.navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+}
+
+#span {
+    font-family: 'Mukta Mahee', sans-serif;
+    color: rgb(177, 125, 125);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.navbar-light {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    background-image: linear-gradient(to top, #fdf1f1, #e7e6e3);
+}
+
+#bookaticket {
+    font-weight: 400;
+    color: black;
+}
+
+
+/*SEKSIONI I PARE*/
+
+.title {
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+}
+
+.paragrafi1 {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.h5 {
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.butoni {
+    background-color: rgb(8, 8, 8);
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+#title1 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+/*TESTIMONIALS*/
+
+.p_testimonials {
+    font-style: italic;
+}
+
+
+/*CAROUSELI*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 55px;
+    width: 25px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+}
+
+.nocolor {
+    border: 0px;
+}
+
+
+/*SEKSIONI TJETER*/
+
+#paragrafi2 {
+    font-size: 17px;
+}
+
+.paragrafi3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 19px;
+    letter-spacing: 1;
+    font-weight: normal;
+}
+
+.titulli_gallery {
+    font-family: 'Abril Fatface', cursive;
+}
+
+@media (min-width: 768px) {
+    .card-deck {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .card-deck .card {
+        -ms-flex: 1 0 0%;
+        flex: 1 0 0%;
+        margin-right: 15px;
+        margin-bottom: 0;
+        margin-left: 15px;
+    }
+}
+
+
+/*ABOUT US*/
+
+button {
+    background-color: rgb(197, 141, 141);
+    /* background-color: rgb(182, 146, 146); */
+    border: 0px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.Overflow {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.shadowed {
+    box-shadow: 5px 5px rgb(199, 199, 199);
+    background-color: rgb(236, 236, 236);
+}
+
+
+/* KONTAKTI */
+
+#black {
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title2 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.btn-primary {
+    background-color: rgb(177, 125, 125);
+    border-color: rgb(177, 125, 125);
+}
+
+.btn-primary:hover {
+    background-color: rgb(150, 97, 97);
+    border-color: none;
+}
+
+
+/*SERVICES*/
+
+.bigicons {
+    font-size: 60px;
+    color: rgb(98, 98, 116);
+}
+
+.ikonat {
+    font-size: 50px;
+    color: rgb(98, 98, 116);
+}
+
+
+/*FOOTER*/
+
+.footer-image {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.footer_h6 {
+    font-size: 25px;
+}
+
+.footer_icon {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.footer_icon:hover {
+    opacity: 0.8;
+}
